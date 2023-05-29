@@ -1,0 +1,247 @@
+.AddContainer {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.AddContainer input {
+  background-color: #7a7a7a;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid #7a7a7a;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  width: 15%;
+  text-align: center;
+  outline: none;
+  color: white;
+}
+
+.AddContainer select {
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.navbar {
+  color: white;
+  border: 2px solid #000000 ;
+  background-image: linear-gradient(315deg,#2C3E50
+  0%, #000000 74%);
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  /* border-radius: 0px 0px 10px 10px; */
+}
+
+.navbar h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  margin-left: 4rem;
+}
+
+.Add {
+  margin-top: 40px;
+}
+
+.Dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto 0px auto;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+  padding-bottom: 120px;
+}
+.FilterContainer {
+  width: 95%;
+  margin: 30px auto 30px auto;
+}
+
+.FilterContainer ul li {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Dashboard ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Card {
+  text-transform: capitalize;
+  background: white;
+  font-family: monospace;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  height: 4rem;
+  width: 90.5%;
+  margin: 5px;
+  font-size: large;
+}
+
+.Card h2 {
+  text-align: center;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid black; */
+}
+
+.Card h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 300px;
+}
+
+.Card_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.statsbutton {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15%;
+  text-align: center;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.Home {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg,#2C3E50
+  0%, #000000 74%);
+  height: auto;
+  /* padding-bottom: 255px; */
+}
+
+.Expense {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  width: 20%;
+  padding: 20px 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #feae96;
+  background-image: linear-gradient(315deg, #380036
+  0%, #0CBABA 74%);
+}
+
+.Income {
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #0CBABA 0%, #380036 74%);
+}
+
+.Balance {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #380036 0%, #0CBABA 74%);
+  width: 30%;
+}
+
+.statsCard {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.SignOutBtn {
+  border: none;
+  padding: 8px 12px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+input::placeholder {
+  color: var(--placeholder-color);
+}
+
+.Budget {
+  margin-top: 40px;
+}
+
+.Budget h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.BudgetContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.BudgetItem {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.BudgetItem h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.BudgetItem p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.BudgetItem .amount {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.BudgetItem .expense {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e74c3c;
+}

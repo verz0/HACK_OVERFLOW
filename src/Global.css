@@ -1,0 +1,51 @@
+.background {
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.border2px {
+  border: 2px solid black;
+}
+
+.borderRadius5px {
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyContent {
+  justify-content: center;
+}
+.alignItems {
+  align-items: center;
+}
+
+.flexDirection {
+  flex-direction: column;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+.border2pxblue {
+  border: 2px solid #29539b;
+}
+
+.displaynone {
+  display: none;
+}
+.displayblock {
+  display: block;
+}
+
+.btnDisabled {
+  opacity: 0.8;
+  cursor:not-allowed;
+}

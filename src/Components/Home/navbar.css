@@ -1,0 +1,10 @@
+.navLink {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
